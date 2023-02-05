@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 0%;
+}
+
+h1{
+    font-size: 55px;
+    color: rgb(179, 86, 21);
+    margin-top: 0px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calci{
+    padding: 10px;
+    border-radius: 8px;
+    height: 420px;
+    width: 360px;
+    margin: auto;
+    background-color: #0c0c0a;
+    box-shadow: rgba(10, 65, 64, 0.19) 0px 10px 20px, rgba(49, 118, 143, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #6c6767;
+    border: solid black 0.5px;
+    color: rgb(236, 229, 229);
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+    }
+
+#cbtn {
+    background-color: #7e7cc6;
+}
+
+#colorbtn{
+    background-color: #7e7cc6;
+}
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #6c6767;
+    color: rgb(64, 18, 18);
+    font-size: 16px;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+        
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
